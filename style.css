@@ -134,3 +134,8 @@ footer {
 #botaoNovaconta:hover {
     background-color: #40aa2a;
 }
+.a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
