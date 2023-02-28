@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    width: 100%;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: #1877f2;
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2 {
+    width: 300px;
+    margin: auto;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*---------------------------------------------------------------*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+input {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.151);
+    margin-top: 10px;
+}
+#campoPassword {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.container {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.473);
+}
+button {
+    background-color: #1877F2;
+    color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #085fd1;
+}
+#novaConta {
+    width: 150px;
+    background-color: #36a420;
+}
+#novaConta:hover{
+    background-color: #2d8d1a;
+}
+#linkSenha {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #1877F2;
+}
+#linkSenha:hover {
+    text-decoration: underline;
+}
+/*--------------------------------------------------------------*/
+aside {
+    height: 80px;
+    text-align: center;
+}
+p {
+    width: 300px;
+    margin: auto;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#linkPagina {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#linkPagina:hover {
+    text-decoration: underline;
+}
+/*--------------------------------------------------------------*/
+footer {
+    line-height: 1.5em;
+    padding-top: 50px;
+    text-align: justify;
+}
+small {
+    color: #737373;
+}
